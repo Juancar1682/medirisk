@@ -2,7 +2,7 @@
 
 > A full-stack clinical decision support tool that predicts the probability of 30-day hospital readmission using a Random Forest ML model.
 
-**Live Demo** → [https://medirisk-api.onrender.com]
+**Live Demo** → [https://medirisk-six.vercel.app]
 
 ---
 
