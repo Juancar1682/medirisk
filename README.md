@@ -16,9 +16,9 @@ MediRisk gives clinicians a fast, data-driven risk signal at discharge.
 
 ## What It Does
 
-- Takes patient data as input — age, BMI, blood pressure, diagnoses, comorbidities
+- Takes patient data as input — age, medications, diagnoses, procedures, prior visits, and more
 - Runs it through a trained Random Forest classifier
-- Returns a readmission risk probability and risk band (Low / Moderate / High / Very High)
+- Returns a readmission risk probability and risk band (Low / Moderate / High)
 - Built for clinical workflows — fast, readable output, no data science background required
 
 ---
@@ -85,12 +85,14 @@ App runs at `http://localhost:3000`
 The Random Forest classifier was trained on a synthetically generated dataset of patient records with the following features:
 
 - Age
-- BMI
-- Systolic / diastolic blood pressure
-- Diabetes status
-- Smoking status
-- Number of prior admissions
+- Number of medications
+- Number of diagnoses
+- Number of procedures
+- Prior inpatient visits
+- Prior emergency visits
 - Length of stay
+- Insulin use
+- Discharge type
 
 Model is evaluated using AUC-ROC. Feature importance analysis is included in `train_model.py`.
 
