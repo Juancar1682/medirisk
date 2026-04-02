@@ -2,7 +2,7 @@
 
 > A full-stack clinical decision support tool that predicts the probability of 30-day hospital readmission using a Random Forest ML model.
 
-**Live Demo** → [your-vercel-url-here]
+**Live Demo** → [https://medirisk-api.onrender.com]
 
 ---
 
@@ -25,13 +25,13 @@ MediRisk gives clinicians a fast, data-driven risk signal at discharge.
 
 ## Tech Stack
 
-| Layer | Tech |
-|---|---|
-| Frontend | React, Tailwind CSS |
-| Backend | Python, FastAPI |
-| ML Model | Random Forest (scikit-learn) |
-| Data | Synthetically generated patient dataset |
-| Deployment | Vercel (frontend) |
+| Layer      | Tech                                    |
+| ---------- | --------------------------------------- |
+| Frontend   | React, Tailwind CSS                     |
+| Backend    | Python, FastAPI                         |
+| ML Model   | Random Forest (scikit-learn)            |
+| Data       | Synthetically generated patient dataset |
+| Deployment | Vercel (frontend)                       |
 
 ---
 

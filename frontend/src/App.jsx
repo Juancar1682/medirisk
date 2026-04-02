@@ -11,11 +11,14 @@ function App() {
     setResult(null);
 
     try {
-      const response = await fetch("http://localhost:8000/predict", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(patientData),
-      });
+      const response = await fetch(
+        "https://medirisk-api.onrender.com/predict",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(patientData),
+        },
+      );
 
       const data = await response.json();
 

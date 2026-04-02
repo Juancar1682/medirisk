@@ -3,7 +3,7 @@ backend/venv/
 backend/__pycache__/
 backend/*.pyc
 backend/*.pyo
-backend/*.pkl
+# backend/*.pkl
 
 # Node
 frontend/node_modules/
