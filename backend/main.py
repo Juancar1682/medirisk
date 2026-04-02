@@ -12,6 +12,7 @@ app.add_middleware(
     "http://localhost:3000",
     "https://medirisk-six.vercel.app"
 ],
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
